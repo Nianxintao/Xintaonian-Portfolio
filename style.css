@@ -18,26 +18,80 @@ body{
 }
 
 Header{
-    background-color: var(--french-gray);
+    background-color: var(--eerie-black);
     height: 10dvh;
     width: 100dvw;
-    text-align: center;
+    text-align: justify;
     font-size: large;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0%;
+    padding-bottom: 1dvh;
+    
+    
 }
+Header > h2{
+    color: antiquewhite;
+}
+nav > a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    background-color: var(--seasalt);
+    padding: 0.1em;
+    border-radius: 1.5em;
+    font-size: medium;
+    text-align: center;
+    font-weight: bolder;
+    color: sienna;
 
+}
+nav > a:hover{
+    background-color: gray;
+    font-size: large;
+}
 main{
-    background-color: var(--onyx);
+    background-color: var(--french-gray);
     height: 85dvh;
     width: 100dvw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;  
+    text-shadow: 1px 1px 2px red;
 }
 
+p{
+    text-align: center; 
+}
+main > img{
+    background-color:var(--eerie-black);
+    height: 50dvh;
+    width: 50dvw;
+    margin: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    object-fit: cover;
+    border: radius 3%;
+}
+.button1{
+    background-color: coral;
+    color: black;
+    margin: 3em;
+    border: 2px black;
+}
 footer{
     background-color: var(--french-gray-2);
     height: 5dvh;
     width: 100dvw;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
