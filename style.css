@@ -51,9 +51,12 @@ nav > a:hover{
     background-color: gray;
     font-size: large;
 }
+*{
+    margin: 0%;
+}
 main{
     background-color: var(--french-gray);
-    height: 85dvh;
+    min-height: 85dvh;
     width: 100dvw;
     flex-direction: column;
     display: flex;
@@ -61,8 +64,13 @@ main{
     align-items: center;
 }
 h3{
+    font-size: larger;
     text-align: center;  
-    text-shadow: 1px 1px 2px red;
+    text-shadow: 0px 0px 5px #403f41, 
+    0px 0px 10px #2a2a2b, 
+    0px 0px 10px #7b7a7c,
+    0px 0px 20px #89888a,
+    0px 0px 25px #cecdcf;
 }
 
 p{
@@ -80,12 +88,14 @@ main > img{
     object-fit: cover;
     border: radius 3%;
 }
-.button1{
-    background-color: coral;
-    color: black;
-    margin: 3em;
-    border: 2px black;
+main > a{
+    text-decoration: none;
+    padding:1em;
+    color: var(--eerie-black);
+    background-color: #cecdcf;
+    border-radius: 3em;
 }
+
 footer{
     background-color: var(--french-gray-2);
     height: 5dvh;
