@@ -1,0 +1,66 @@
+
+
+.myimg > img {
+    height: 40dvh;
+    width: auto;
+    border-radius: 50%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.section1 > h3 {
+    background-color: var(--french-gray-2);
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.section2 > ul{
+    height: 40dvh;
+    margin-top: 4em;
+}
+
+.l1{
+    padding: 1em;
+}
+.l2{
+    padding: 1em;
+}
+.l3{
+    padding: 1em;
+}
+.l4{
+    padding: 1em;
+}
+.l5{
+    padding: 1em;
+}
+.email {
+    transition: 1s;
+    text-decoration: none;
+    color: black;
+
+}
+ .button1 {
+    transition: 1s;
+    text-decoration: none;
+    color: black;
+}
+.button2{
+    transition: 1s;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: slategray;
+    font-size: large;
+    border-radius: 1.5em;
+    padding: 1em;
+    font-style: italic;
+    font-weight: bolder;
+    color: blue;
+}
