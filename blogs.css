@@ -13,6 +13,7 @@ main > section {
     border-radius: 3em;
     filter: drop-shadow(1em 1em 8px black);
     width: auto;
+    transition: 1s;
 }
 h2{
     margin-top: 1em;
@@ -26,11 +27,12 @@ p{
     padding: 1em;
 }
 img{
-    height: 40dvh;
+    height: 20dvh;
     width: auto;
     border-radius: 3em;
     margin: 1em;
     object-fit: cover ;
+    transition: 1s;
 }
 a{
     text-decoration: none;
@@ -45,3 +47,16 @@ a:hover{
     border-radius: 2em;
     padding: 1em;
 }
+ img:hover{
+    height: 50dvh;
+    filter: drop-shadow(1em 1.5em 6px rgb(43, 43, 43));
+}
+section:hover{
+    margin: 1em;
+    padding: 1em;
+    background-color:  rgb(74, 75, 77);
+    border-radius: 3em;
+    filter: drop-shadow(1em 1em 8px rgb(105, 5, 5)
+    );
+    width: auto;
+} 
