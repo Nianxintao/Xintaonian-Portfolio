@@ -63,7 +63,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-h3{
+h2{
     font-size: larger;
     text-align: center;  
     text-shadow: 0px 0px 5px #403f41, 
@@ -71,6 +71,7 @@ h3{
     0px 0px 10px #7b7a7c,
     0px 0px 20px #89888a,
     0px 0px 25px #cecdcf;
+    margin: 2em;
 }
 
 p{
@@ -78,15 +79,16 @@ p{
 }
 main > img{
     background-color:var(--eerie-black);
-    height: 50dvh;
-    width: 50dvw;
+    height: 70dvh;
+    width: auto;
     margin: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     color: antiquewhite;
     object-fit: cover;
-    border: radius 3%;
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px 5px rgb(0,0,0);
 }
 main > a{
     text-decoration: none;
@@ -94,6 +96,8 @@ main > a{
     color: var(--eerie-black);
     background-color: #cecdcf;
     border-radius: 3em;
+    margin: 2em;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
 }
 
 footer{

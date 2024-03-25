@@ -12,3 +12,8 @@ p{
 h4{
     margin: 1em;
 }
+.photo{
+    height: 50dvh;
+    width: auto;
+    border-radius: 2em;
+}
