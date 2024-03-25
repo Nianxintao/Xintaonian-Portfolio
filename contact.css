@@ -67,7 +67,43 @@
     color: black;
 }
 
-a:hover{
+.button1:hover{
+    background-color: slategray;
+    font-size: large;
+    border-radius: 1.5em;
+    padding: 1em;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(111, 111, 116);
+}
+.button2:hover{
+    background-color: slategray;
+    font-size: large;
+    border-radius: 1.5em;
+    padding: 1em;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(33, 33, 34);
+}
+.button3:hover{
+    background-color: slategray;
+    font-size: large;
+    border-radius: 1.5em;
+    padding: 1em;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(32, 32, 36);
+}
+.button4:hover{
+    background-color: slategray;
+    font-size: large;
+    border-radius: 1.5em;
+    padding: 1em;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(120, 120, 136);
+}
+.email:hover{
     background-color: slategray;
     font-size: large;
     border-radius: 1.5em;

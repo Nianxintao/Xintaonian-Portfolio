@@ -22,11 +22,11 @@ Header{
     height: 10dvh;
     width: 100dvw;
     text-align: justify;
-    font-size: large;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 0%;
     padding-bottom: 1dvh;
     
@@ -45,6 +45,7 @@ nav > a{
     text-align: center;
     font-weight: bolder;
     color: sienna;
+    
 
 }
 nav > a:hover{
@@ -79,7 +80,7 @@ p{
 }
 main > img{
     background-color:var(--eerie-black);
-    height: 70dvh;
+    height: 50dvh;
     width: auto;
     margin: 1.5em;
     display: flex;

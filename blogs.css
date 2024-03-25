@@ -15,7 +15,7 @@ main > section {
     width: auto;
     transition: 1s;
 }
-h2{
+h3{
     margin-top: 1em;
 }
 main > section > h4 {
@@ -31,16 +31,16 @@ img{
     width: auto;
     border-radius: 3em;
     margin: 1em;
-    object-fit: cover ;
+    /* object-fit: cover ; */
     transition: 1s;
 }
-a{
+.read{
     text-decoration: none;
     color: white;
     margin: 0.5em;
     transition: 1s;
 }
-a:hover{
+.read:hover{
     color: blue;
     font-size: large;
     background-color: var(--antiflash-white);
