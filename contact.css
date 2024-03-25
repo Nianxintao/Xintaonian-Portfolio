@@ -55,6 +55,18 @@
     color: black;
 }
 
+.button3{
+    transition: 1s;
+    text-decoration: none;
+    color: black;
+}
+
+.button4{
+    transition: 1s;
+    text-decoration: none;
+    color: black;
+}
+
 a:hover{
     background-color: slategray;
     font-size: large;
