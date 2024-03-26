@@ -78,6 +78,10 @@ h2{
 p{
     text-align: center; 
 }
+.p1{
+    margin-top: 1em;
+    font-size: 2em;
+}
 main > img{
     background-color:var(--eerie-black);
     height: 50dvh;

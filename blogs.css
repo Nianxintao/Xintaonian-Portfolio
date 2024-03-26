@@ -59,4 +59,5 @@ section:hover{
     filter: drop-shadow(1em 1em 8px rgb(105, 5, 5)
     );
     width: auto;
+    font-size: 1.5em;
 } 

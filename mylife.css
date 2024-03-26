@@ -1,10 +1,16 @@
 
 .life > img{
     height: 20dvh;
+    width: auto;
     border-radius: 2em;
     filter: drop-shadow(0.2em 0.2em 2px #dee2e6ff);
     transition: 1.5s;
     border: 1px black;
+    margin: 1em;
+}
+
+.Swinburne{
+    max-width: 80%;
 }
 main>h1{
     padding: 1em ;
@@ -44,11 +50,13 @@ h4{
     background-color: var(--outer-space);
     border-radius: 2em;
     filter: drop-shadow(1em 1em 8px black);
+    width: 75%;
 }
 
 .life:hover{
     border-radius: 0%;
     filter: drop-shadow(2em 2em 10px black);
+    font-size: 1.5em;
 }
 
 .life>img:hover{
