@@ -1,4 +1,4 @@
-
+/* size adn style all img */
 .life > img{
     height: 20dvh;
     width: auto;
@@ -8,10 +8,11 @@
     border: 1px black;
     margin: 1em;
 }
-
+/* resize Uni img due to it was too big */
 .Swinburne{
     max-width: 80%;
 }
+/* style header 1  name animation shining and duration for shining is 1s with infinite repeat */
 main>h1{
     padding: 1em ;
     color: #343536;
@@ -19,25 +20,27 @@ main>h1{
     -webkit-animation: shining 1s alternate infinite;
     animation: shining 1s alternate infinite;
     }
+    /* animation shining text shadow from dark colour to white and repeat */
     @-webkit-keyframes shining {
         from {
             text-shadow: 0 0 10px rgb(7, 7, 7), 0 0 20px rgb(52, 53, 54), 0 0 30px rgb(56, 57, 58), 0 0 40px rgb(98, 100, 100);
         }
     ​
-        to {
+        to{
             text-shadow: 0 0 5px --antiflash-white, 0 0 10px --antiflash-white;
         }
     }
-    
+
+/* relocate the title of each section */
 h4{
     margin-top: 1.5em;
 }
-
+/* the text content on the paragrah start from left */
 .life>p{
     text-align: left;
 }
     
-
+/* locate and resizing all the sections  */
 .life{
     transition: 1s;
     display: flex;
@@ -52,13 +55,13 @@ h4{
     filter: drop-shadow(1em 1em 8px black);
     width: 75%;
 }
-
+/* add hover for each section -- change border font size and box shadow in 1 s */
 .life:hover{
     border-radius: 0%;
     filter: drop-shadow(2em 2em 10px black);
     font-size: 1.5em;
 }
-
+/* add hover for each section -- change border and box shadow in 1 s */
 .life>img:hover{
     height: 50dvh;
     width: auto;

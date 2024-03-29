@@ -1,24 +1,35 @@
+/* resizing the image */
 main>img{
     width: 80dvw;
     height: auto;
 }
+
+
+/* resizing the paragraph and relocate the text content */
 main>p{
     margin: 1em;
     text-align: left;
 }
+
+/*resizing the publish content and relocate the text content  */
 main>h6{
     color:rgb(94, 97, 100);
     margin-top: 1em;
 }
+
+/* relocate the download resume button and give a transition time of hover */
 main>a{
     margin-top: 1em;
     transition: 1s;
 }
+
+/* add hover to download resume button */
 a:hover{
     font-size: large;
 }
 
 
+/* if the screen size is wider than 900px all img width auto and python img show as W 80dvw H 60dvh */
 @media screen and (min-width: 900px) {
  main>img
     {
@@ -29,6 +40,9 @@ a:hover{
     width: 80dvw;
     height: 60dvh;
 }
+
+
+/* if the screen size is smaller than 900px the css and JS and Python img will be resizing and cover the area*/
 
 @media screen and (max-width:900px) {
     .cssimg{

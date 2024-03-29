@@ -1,11 +1,13 @@
 
-
+/* style the button for contact me button */
 main > a{
     text-decoration: none;
 }
+/* relocate the header1 */
 h1{
     margin: 1em;
 }
+/* make the text content with large text */
 p{
     margin: 1dvh;
     font-size: large;
@@ -13,6 +15,7 @@ p{
 h4{
     margin: 1em;
 }
+/* resizing the img */
 .photo{
     height: 50dvh;
     width: auto;
