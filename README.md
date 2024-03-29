@@ -7,7 +7,7 @@
 <https://github.com/Nianxintao/Xintaonian-Portfolio>
 
 ## Presentation Video URL:
-<#>
+<https://www.youtube.com/channel/UC8e-W9ITpnXESGD2dRzZsMA>
 
 # Purpose
 The T1A2 portfolio assignment is to approve that the basic acknowlage of HTML and CSS gained from the first 5 weeks learning. Alson a showcase my accomplishments, projects, experiences as an aspiring web developer.
